@@ -1,175 +1,151 @@
 # Scientific Calculator Application
 
 ## Contents
-- [Scientific Calculator Application](#scientific-calculator-application)
-- [Contents](#contents)
-- [User Experience (UX)](#user-experience-ux)
-  - [Initial Discussion](#initial-discussion)
-  - [User Stories](#user-stories)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-  - [Wireframes](#wireframes)
-  - [Features](#features)
-  - [Accessibility](#accessibility)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Deployment & Local Development](#deployment--local-development)
-  - [Deployment](#deployment)
-  - [Local Development](#local-development)
-    - [How to Fork](#how-to-fork)
-    - [How to Clone](#how-to-clone)
-- [Testing](#testing)
-  - [W3C Validator](#w3c-validator)
-  - [Solved Bugs](#solved-bugs)
-  - [Known Bugs](#known-bugs)
-  - [Testing User Stories](#testing-user-stories)
-  - [Lighthouse](#lighthouse)
-  - [Index Page](#index-page)
-  - [Books Page](#books-page)
-  - [Contact Us Page](#contact-us-page)
-  - [Thank You Page](#thank-you-page)
-  - [Full Testing](#full-testing)
-- [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
-  - [Acknowledgments](#acknowledgments)
+
+- Scientific Calculator Application
+- Contents
+- User Experience (UX)
+  - Initial Discussion
+  - User Stories
+- Design
+  - Colour Scheme
+  - Typography
+  - Imagery
+  - Wireframes
+  - Features
+  - Accessibility
+- Technologies Used
+  - Languages Used
+  - Frameworks, Libraries & Programs Used
+- Deployment & Local Development
+  - Deployment
+  - Local Development
+    - How to Fork
+    - How to Clone
+- Testing
+  - W3C Validator
+  - JSHint
+  - Solved Bugs
+  - Known Bugs
+  - Testing User Stories
+  - Lighthouse
+  - Thank You Page
+  - Full Testing
+- Credits
+  - Code Used
+  - Content
+  - Media
+  - Acknowledgments
 
 ## User Experience (UX)
 
 ### Initial Discussion
-The primary goal of the Scientific Calculator application is to provide users with a powerful and user-friendly tool for performing advanced mathematical operations. The application is designed to be intuitive and accessible, ensuring that both casual users and professionals can benefit from its features.
+This section outlines the purpose of the scientific calculator, its target audience, and the primary goals of its functionality. It includes discussions on user needs and the problem-solving approach.
 
 ### User Stories
-1. **As a student**, I want to perform various mathematical operations, so that I can complete my homework efficiently.
-2. **As a teacher**, I want to demonstrate complex calculations to my students, so that they can understand mathematical concepts better.
-3. **As a researcher**, I want to perform accurate scientific calculations, so that I can validate my research findings.
-4. **As a developer**, I want to use a calculator with keyboard support, so that I can quickly perform operations without using a mouse.
+- **As a student**, I want a calculator capable of performing trigonometric and logarithmic functions to help with my assignments.
+- **As an engineer**, I need a tool to handle precise calculations for my projects.
+- **As a general user**, I require a simple interface to perform basic and advanced calculations easily.
 
 ## Design
 
 ### Colour Scheme
-The colour scheme for the Scientific Calculator application is chosen to be visually appealing and to provide high contrast for readability. The primary colours used are:
-- **Background**: Light grey
-- **Buttons**: Dark grey and blue for operations
-- **Display**: White with black text
+The interface features a professional colour palette:
+- **Primary Colours**: Navy blue for borders and buttons.
+- **Secondary Colours**: Light grey for the background.
+- **Accent Colours**: Green for "Calculate" actions and red for "Reset."
 
 ### Typography
-The application uses a clean and modern font for all text elements to ensure readability. The primary font used is `Arial`, with `Helvetica` and `sans-serif` as fallbacks.
+Fonts are chosen for clarity and readability:
+- **Primary Font**: Arial for numerical input and results.
+- **Secondary Font**: Roboto for labels and informational text.
 
 ### Imagery
-Imagery is kept to a minimum to maintain a clean and uncluttered interface. Icons are used for memory functions and angle mode toggles.
+Minimal imagery ensures a clean design. Icons are used for buttons to visually represent their functions.
 
 ### Wireframes
-Wireframes were created to outline the basic layout and functionality of the application. These include the arrangement of buttons, display, and additional features like memory functions and angle mode.
+Wireframes depict responsive layouts for desktop, tablet, and mobile, ensuring an optimal user experience across devices.
 
 ### Features
-- **Arithmetic Operations**: Addition, subtraction, multiplication, division, and percentage calculations.
-- **Trigonometric Functions**: sin, cos, tan (calculates in degrees or radians).
-- **Logarithmic Functions**: ln (natural logarithm) and log (base-10 logarithm).
-- **Exponential and Power Operations**: Includes exponentiation (x^y) and square roots.
-- **Constants**: Includes π and Euler's constant e.
-- **Factorial Calculation**: Computes factorial for non-negative integers.
-- **Random Number Generator**: Generates a random number between 0 and 1.
-- **Memory Functions**: M+, M-, MR, MC.
-- **Angle Mode Selection**: Toggle between degrees and radians.
-- **Input Flexibility**: Button clicks and keyboard input.
-- **Error Handling**: Displays appropriate error messages for invalid inputs or operations.
+- Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
+- Advanced Calculations: Trigonometric, logarithmic, and exponential functions.
+- Memory Functions: Store, recall, and clear memory values.
+- Error Handling: Provides clear feedback for invalid input.
 
 ### Accessibility
-The application is designed to be accessible to all users, including those with disabilities. Features include:
-- High contrast colour scheme for readability.
-- Keyboard support for all operations.
-- Clear error messages for invalid inputs.
-- Screen reader compatibility.
+Designed to be inclusive:
+- Fully keyboard-navigable interface.
+- Screen reader support for visually impaired users.
+- High contrast mode for better visibility.
 
 ## Technologies Used
 
 ### Languages Used
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ### Frameworks, Libraries & Programs Used
-- [Bootstrap](https://getbootstrap.com/): For responsive design and styling.
-- [math.js](https://mathjs.org/): For evaluating mathematical expressions safely.
+- **Bootstrap**: For responsive design.
+- **Font Awesome**: For intuitive button icons.
+- **Jest**: For JavaScript testing.
 
 ## Deployment & Local Development
 
 ### Deployment
-The application can be deployed on any web server. Simply upload the project files to the server, and it will be accessible via a web browser.
+The application is live on GitHub Pages. [View live site here](#).
 
 ### Local Development
 
 #### How to Fork
-1. Log in to GitHub and navigate to the repository.
-2. Click the "Fork" button in the top right corner.
-3. The repository will be forked to your account.
+1. Navigate to the GitHub repository.
+2. Click the "Fork" button at the top-right corner.
 
 #### How to Clone
-1. Navigate to your forked repository on GitHub.
-2. Click the "Code" button and copy the repository URL.
-3. Open your terminal and run:
-    ```bash
-    git clone <repository-url>
-    ```
-4. Navigate to the project directory:
-    ```bash
-    cd scientific-calculator
-    ```
-5. Open the `index.html` file in your browser to use the calculator.
+1. Copy the repository URL.
+2. Open your terminal and run:
+   ```bash
+   git clone <repository-url>
+   ```
+3. Navigate to the project folder and open it in your preferred IDE.
 
 ## Testing
 
 ### W3C Validator
-The HTML and CSS files were validated using the W3C Markup Validator and CSS Validator to ensure there are no syntax errors.
+- Validated HTML and CSS files to ensure standards compliance.
+
+### JSHint
+- Checked JavaScript code for errors and best practices.
 
 ### Solved Bugs
-- Fixed issue with negative numbers in factorial calculations.
-- Resolved keyboard input conflicts.
-- Corrected error message display for invalid operations.
+- Resolved an issue where trigonometric functions returned incorrect results for angles in degrees.
+- Fixed display issues for large numbers on mobile devices.
 
 ### Known Bugs
-- Occasional lag when performing multiple complex operations rapidly.
-- The keyboard input does not always reset after an error message is displayed.
+- Occasional lag when handling extremely large calculations.
 
 ### Testing User Stories
-1. **Student**: Successfully performed various mathematical operations.
-2. **Teacher**: Demonstrated complex calculations without issues.
-3. **Researcher**: Validated research findings with accurate calculations.
-4. **Developer**: Used keyboard support for quick operations.
+- Verified all functionalities meet the requirements outlined in user stories.
 
 ### Lighthouse
-Lighthouse tests were conducted to ensure the application meets performance, accessibility, and best practices standards.
-
-### Index Page
-The index page provides an overview of the calculator's functionality and features, allowing users to quickly understand what the application offers.
-
-### Books Page
-A hypothetical books page lists recommended books for learning advanced mathematics, integrating relevant links and descriptions.
-
-### Contact Us Page
-The contact page includes information on how to get in touch with the site administrators, providing users with a means to ask questions or provide feedback.
+- Ran Lighthouse tests to evaluate performance, accessibility, and best practices.
 
 ### Thank You Page
-The thank you page acknowledges the support and contributions of all those involved in the project, including developers, testers, and users.
+- Tested the user-friendly thank-you message after completing operations.
 
 ### Full Testing
-A comprehensive testing plan was executed, covering all features and functionalities of the application. This included unit tests for individual functions and integration tests for overall user experience.
+- Comprehensive testing across browsers and devices to ensure functionality and responsiveness.
 
 ## Credits
 
 ### Code Used
-- Utilized [math.js](https://mathjs.org/) for mathematical expression evaluation.
+- **Math.js**: Utilized for complex mathematical operations.
 
 ### Content
-- The content and design elements were created by the development team.
+- Original content created for tooltips and instructions.
 
 ### Media
-- Icons used are sourced from [FontAwesome](https://fontawesome.com/).
+- Icons sourced from Font Awesome.
 
 ### Acknowledgments
-- Thanks to the open-source community for providing valuable resources and libraries.
+Special thanks to online tutorials, GitHub contributors, and open-source communities for guidance and resources.

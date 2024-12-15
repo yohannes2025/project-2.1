@@ -2,40 +2,42 @@
 
 ## Contents
 
-- Scientific Calculator Application
-- Contents
-- User Experience (UX)
-  - Initial Discussion
-  - User Stories
-- Design
-  - Colour Scheme
-  - Typography
-  - Imagery
-  - Wireframes
-  - Features
-  - Accessibility
-- Technologies Used
-  - Languages Used
-  - Frameworks, Libraries & Programs Used
-- Deployment & Local Development
-  - Deployment
-  - Local Development
-    - How to Fork
-    - How to Clone
-- Testing
-  - W3C Validator
-  - JSHint
-  - Solved Bugs
-  - Known Bugs
-  - Testing User Stories
-  - Lighthouse
-  - Thank You Page
-  - Full Testing
-- Credits
-  - Code Used
-  - Content
-  - Media
-  - Acknowledgments
+- [Scientific Calculator Application](#scientific-calculator-application)
+- [Contents](#contents)
+- [User Experience (UX)](#user-experience-ux)
+  - [Initial Discussion](#initial-discussion)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [W3C Validator](#w3c-validator)
+  - [JSHint](#jshint)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+  - [Testing User Stories](#testing-user-stories)
+  - [Lighthouse](#lighthouse)
+  - [Thank You Page](#thank-you-page)
+  - [Full Testing](#full-testing)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
+
+---
 
 ## User Experience (UX)
 
